@@ -1,0 +1,14 @@
+pandas
+matplotlib
+seaborn
+ipython
+networkx
+spicy
+nltk
+contractions
+vaderSentiment
+textblob
+transformers
+tensorflow
+torch
+tf-keras
