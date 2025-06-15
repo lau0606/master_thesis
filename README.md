@@ -15,6 +15,14 @@ We combine:
 
 A custom suspicion score and behavioral clustering help reveal wallet patterns like sniper activity, wash trading, and market manipulation. Simultaneously, Reddit discussions provide qualitative insights into hype, FOMO, and emotional investment behavior.
 
+## Repository Structure
+
+- requirements.txt: List of Python packages required to run the code
+- FOMO_HYPE/: Contains code for detecting FOMO and hype in Reddit discussions
+- Reddit_Data/: Includes scraped Reddit threads mentioning $TRUMP, $MELANIA, and $LIBRA, notebooks for downloading and preparing data, merged and cleaned datasets
+- topic_modelling/: Topic modelling notebooks for each coin and a summary file of extracted topics
+- sentiment_analysis/: Contains sentiment analysis notebooks using VADER and TextBlob
+- OnChain_Analysis/: Includes code for building wallet maps and analyzing on-chain behavior (profit, suspicion, and scam detection)
 
 ## Methodology Summary
 
